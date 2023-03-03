@@ -1,0 +1,9 @@
+write me a container that has max width and is centered.
+this container should include a 2 column.
+first column includes h2 , h3, p, and a button all with placeholder text.
+second column is has 4 rows of 10 cards each that have 200px wide and 400px height and are 20px margin apart.
+This second column should also include a dark overlay opacity at 20%.
+
+
+Second column should have an animation where these rows of cards animate and pan from right to left.
+Use gsap animation to make the loop of the animation of the cards and ensure that the loop never stops and the cards pan across infinitely without any gap between each loop cycle. 

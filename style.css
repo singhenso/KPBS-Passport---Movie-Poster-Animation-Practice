@@ -1,0 +1,324 @@
+@-webkit-keyframes movePosters {
+    0% {
+        -webkit-transform: translate3d(0, -8px, 0);
+        transform: translate3d(0, -8px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -700px, 0);
+        transform: translate3d(0, -700px, 0);
+    }
+}
+
+@keyframes movePosters {
+    0% {
+        -webkit-transform: translate3d(0, -8px, 0);
+        transform: translate3d(0, -8px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -700px, 0);
+        transform: translate3d(0, -700px, 0);
+    }
+}
+
+@-webkit-keyframes movePostersAlt {
+    0% {
+        -webkit-transform: translate3d(0, -700px, 0);
+        transform: translate3d(0, -700px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+}
+
+@keyframes movePostersAlt {
+    0% {
+        -webkit-transform: translate3d(0, -700px, 0);
+        transform: translate3d(0, -700px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+}
+.MyEmptyListCta {
+    display: block;
+    font-family: abc-gt-america-standard-regular;
+    margin: 0 auto 32px;
+    padding: 0 16px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.bp-tabletPlus .MyEmptyListCta {
+    margin: 0 auto 40px;
+    max-width: 1440px;
+    padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .bp-tabletPlus .MyEmptyListCta {
+        padding: 0 38px;
+    }
+}
+
+
+.MyEmptyListCta__container__title {
+    display: block;
+    font-weight: 200;
+    letter-spacing: normal;
+    line-height: 1;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__title {
+    margin-bottom: 20px;
+}
+
+.MyEmptyListCta__container__title h2 {
+    font-size: 24px;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__title h2 {
+    font-size: 20px;
+}
+
+.MyEmptyListCta__container__block {
+    background: #2b2d36;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block {
+    min-height: 269px;
+}
+
+.bp-desktopLGPlus .MyEmptyListCta__container__block, .bp-desktopPlus .MyEmptyListCta__container__block {
+    min-height: 310px;
+}
+
+.MyEmptyListCta__container__block__content {
+    padding: 42px 16px;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__content {
+    float: left;
+    padding-left: 40px;
+    padding-top: 52px;
+    text-align: left;
+    width: 58.3333333333%;
+}
+
+.bp-desktopLGPlus .MyEmptyListCta__container__block__content, .bp-desktopPlus .MyEmptyListCta__container__block__content {
+    padding-left: 48px;
+    padding-top: 74px;
+    width: 42%;
+}
+
+.MyEmptyListCta__container__block__content__subtitle {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__content__subtitle {
+    font-size: 24px;
+    text-align: left;
+}
+
+.MyEmptyListCta__container__block__content__description {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 1.38;
+    margin-top: 7px;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__content__description {
+    text-align: left;
+}
+
+.bp-desktopLGPlus .MyEmptyListCta__container__block__content__description, .bp-desktopPlus .MyEmptyListCta__container__block__content__description {
+    font-size: 16px;
+}
+
+.MyEmptyListCta__container__block__container-parallax {
+    display: none;
+    max-height: 1400px;
+    overflow: visible;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__container-parallax {
+    display: block;
+    position: absolute;
+    right: -450px;
+    top: -645px;
+    -webkit-transform: translate3d(0, 300px, 0) rotate(-24deg);
+    transform: translate3d(0, 300px, 0) rotate(-24deg);
+    width: 630px;
+    will-change: transform;
+}
+
+.bp-desktopLGPlus .MyEmptyListCta__container__block__container-parallax, .bp-desktopPlus .MyEmptyListCta__container__block__container-parallax {
+    right: -200px;
+    -webkit-transform: translate3d(0, 300px, 0) rotate(-24deg);
+    transform: translate3d(0, 300px, 0) rotate(-24deg);
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 16px;
+    max-width: 194px;
+    position: relative;
+    top: 60px;
+    vertical-align: top;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list:first-child {
+    -webkit-animation: movePosters 60s linear 0s infinite alternate;
+    animation: movePosters 60s linear 0s infinite alternate;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list:nth-child(2) {
+    -webkit-animation: movePostersAlt 60s linear 0s infinite alternate;
+    animation: movePostersAlt 60s linear 0s infinite alternate;
+    top: 236px;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list:last-child {
+    -webkit-animation: movePosters 60s linear 0s infinite alternate;
+    animation: movePosters 60s linear 0s infinite alternate;
+    margin-right: 0;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list li {
+    margin-bottom: 16px;
+}
+.bp-tabletPlus .MyEmptyListCta__container__block__content__subtitle {
+    font-size: 24px;
+    text-align: left;
+}
+
+.MyEmptyListCta__container__block__content__description {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 1.38;
+    margin-top: 7px;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__content__description {
+    text-align: left;
+}
+
+.bp-desktopLGPlus .MyEmptyListCta__container__block__content__description, .bp-desktopPlus .MyEmptyListCta__container__block__content__description {
+    font-size: 16px;
+}
+
+.MyEmptyListCta__container__block__container-parallax {
+    display: none;
+    max-height: 1400px;
+    overflow: visible;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__container-parallax {
+    display: block;
+    position: absolute;
+    right: -450px;
+    top: -645px;
+    -webkit-transform: translate3d(0, 300px, 0) rotate(-24deg);
+    transform: translate3d(0, 300px, 0) rotate(-24deg);
+    width: 630px;
+    will-change: transform;
+}
+
+.bp-desktopLGPlus .MyEmptyListCta__container__block__container-parallax, .bp-desktopPlus .MyEmptyListCta__container__block__container-parallax {
+    right: -200px;
+    -webkit-transform: translate3d(0, 300px, 0) rotate(-24deg);
+    transform: translate3d(0, 300px, 0) rotate(-24deg);
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 16px;
+    max-width: 194px;
+    position: relative;
+    top: 60px;
+    vertical-align: top;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list:first-child {
+    -webkit-animation: movePosters 60s linear 0s infinite alternate;
+    animation: movePosters 60s linear 0s infinite alternate;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list:nth-child(2) {
+    -webkit-animation: movePostersAlt 60s linear 0s infinite alternate;
+    animation: movePostersAlt 60s linear 0s infinite alternate;
+    top: 236px;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list:last-child {
+    -webkit-animation: movePosters 60s linear 0s infinite alternate;
+    animation: movePosters 60s linear 0s infinite alternate;
+    margin-right: 0;
+}
+
+.MyEmptyListCta__container__block__container-parallax__shows-list li {
+    margin-bottom: 16px;
+}
+
+.bp-tabletPlus .MyEmptyListCta__container__block__container-parallax__image {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 16px;
+    max-width: 194px;
+    position: relative;
+    top: 60px;
+    vertical-align: top;
+}
+
+.MyEmptyListCta__link {
+    background-color: hsla(0, 0%, 100%, 0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: abc-gt-america-standard-regular;
+    font-weight: 300;
+    height: 48px;
+    margin: 26px auto 0;
+    padding: 20px;
+    text-align: center;
+    width: 240px;
+}
+
+.bp-tabletPlus .MyEmptyListCta__link {
+    margin: 26px 0 0;
+}
+
+.abc-com .MyEmptyListCta__container__block__container-parallax__shows-list img {
+    border-radius: 4px;
+}
+
+.abc-com .MyEmptyListCta__link.Button.Button__primary {
+    border-radius: 24px;
+}

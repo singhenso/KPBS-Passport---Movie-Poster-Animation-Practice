@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache directory
+.eslintcache
+
+# Optional flow type checking
+.flow-bin/
+.flow-typed/
+
+config.js
