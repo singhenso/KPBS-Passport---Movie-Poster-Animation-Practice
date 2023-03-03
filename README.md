@@ -1,4 +1,4 @@
-![Alt Text](screenshot.png)
+![Alt Text](screenshot.jpg)
 
 # Front End Developer CSS Practice Project
 
@@ -39,17 +39,18 @@ This file will be used to export the API key to the `main.js` file.
 
 ## Usage
 
-To use this project, you can simply open the `index.html` file in your web browser. This will display the animated mobile poster banners that pan out smoothly. You can also view the source code in the `src` directory to see how the JavaScript and LESS files are written.
+
+To use this project, you'll need to add your own API key and then simply open the `index.html` file in your web browser. This will display the animated mobile poster banners that pan out smoothly. You can also view the source code in the `src` directory to see how the JavaScript and LESS files are written.
 
 Note that there is still a lot of work to do on this project, and it is meant to be a learning exercise rather than a fully functional application.
+The goal was to replicate a Netflix style panning animation of movie covers. Also, another goal was the ability to click on the covers and retrieve the data from JSOn.
+
 
 ## Contributing
 
 If you would like to contribute to this project, you can fork the repository and create a new branch for your changes. Once you have made your changes, you can submit a pull request to have your changes reviewed and merged into the main project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
