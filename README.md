@@ -1,3 +1,5 @@
+![Alt Text](screenshot.png)
+
 # Front End Developer CSS Practice Project
 
 This is a project that I created as a practice exercise to learn how front-end developers at ABC write CSS for animating Movie poster banners that pan out smoothly. The project was created using JavaScript and a ton of research to retrieve data from a JSON file and LESS for writing the CSS.
